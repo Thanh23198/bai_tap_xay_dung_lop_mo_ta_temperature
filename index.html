@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var temperature={
+    doC:-271,
+    toCtoF:function (){
+        return ("DoF="+((9/5)*this.doC+32));
+    },
+    toCtoK:function (){
+        return("DoK="+(this.doC+273.15));
+    }
+}
+console.log(temperature.toCtoF());
+console.log(temperature.toCtoK());
+</script>
+</body>
+</html>
